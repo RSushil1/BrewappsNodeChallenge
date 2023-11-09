@@ -11,10 +11,6 @@ dotenv.config();
 //databse config
 connectDB();
 
-// // ESmodule
-// const __filename = fileURLToPath(import.meta.url);
-// const __dirname = path.dirname(__filename);
-
 //rest object
 const app = express();
 
@@ -23,7 +19,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.json("Welcome to the Api");
+  res.json("Welcome to the Book Collection RestApi by Sushil Singh Rathore, go to api/books/get-book for fetch all book list");
 })
 
 //routes
