@@ -22,7 +22,7 @@ json
 
 Response: Success and Returns the created book's information.
 
-2. View a list of all books
+# 2. View a list of all books
 
 Endpoint: /api/books/get-book
 
@@ -30,7 +30,7 @@ Method: GET
 
 Response: Returns a list of all books in the database.
 
-3.View details of a specific book by its ID
+# 3.View details of a specific book by its ID
 
 Endpoint: /api/books/get-book/:id
 
@@ -39,7 +39,7 @@ Method: GET
 Response: Returns the details of the book with the specified ID if it exists.
 
 
-4.Update a book's details
+# 4.Update a book's details
 
 Endpoint: /api/books/update-book/:id
 
@@ -50,7 +50,7 @@ Request Body: Provide the fields you want to update (title, author, summary).
 Response: Returns the updated book's information.
 
 
-5.Delete a book by its ID
+# 5.Delete a book by its ID
 
 Endpoint: /api/books/delete-book/:id
 
