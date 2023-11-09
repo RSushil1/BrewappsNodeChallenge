@@ -15,6 +15,7 @@ Request Body:
 json
 
 {
+  "id": number,
   "title": "Book Title",
   "author": "Author Name",
   "summary": "Book Summary"
