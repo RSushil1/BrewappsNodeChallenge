@@ -9,14 +9,18 @@ The API provides the following endpoints for CRUD operations:
 1. Add a new book
 
 Endpoint: /api/books/create-book
+
 Method: POST
+
 Request Body:
 json
+
 {
   "title": "Book Title",
   "author": "Author Name",
   "summary": "Book Summary"
 }
+
 Response: Success and Returns the created book's information.
 
 2. View a list of all books
