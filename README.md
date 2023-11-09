@@ -5,7 +5,6 @@ Deployed Site: https://brewapps-node-challenge.vercel.app/
 
 API Endpoints
 The API provides the following endpoints for CRUD operations:
-
 1. Add a new book
 
 Endpoint: /api/books/create-book
